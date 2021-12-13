@@ -40,7 +40,8 @@ public class Main {
                 throw new IOException("Incorrect value");
             }
             int result = count(localA, localB, type);
-            System.out.println("Результат: " + Converter.convertArabicToRoman(result));
+            System.out.println("Результат: " + Converter.RomanNumerals(result));
+
         }
         System.out.println("Continue? Y/N");
 
